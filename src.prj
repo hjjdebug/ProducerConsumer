@@ -1,0 +1,9 @@
+src.prj=$PWD CD=. filter="*.h *.cpp" {
+ Consumer.h
+ Producer.h
+ global.h
+ Consumer.cpp
+ Producer.cpp
+ global.cpp
+ main.cpp
+}
